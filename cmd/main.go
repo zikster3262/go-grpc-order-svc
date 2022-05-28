@@ -5,11 +5,11 @@ import (
 	"log"
 	"net"
 
+	"github.com/zikster3262/go-grpc-order-svc/pkg/client"
+	"github.com/zikster3262/go-grpc-order-svc/pkg/config"
+	"github.com/zikster3262/go-grpc-order-svc/pkg/db"
+	"github.com/zikster3262/go-grpc-order-svc/pkg/pb"
 	service "github.com/zikster3262/go-grpc-order-svc/pkg/services"
-	"github.com/ziskter3262/go-grpc-order-svc/pkg/client"
-	"github.com/ziskter3262/go-grpc-order-svc/pkg/config"
-	"github.com/ziskter3262/go-grpc-order-svc/pkg/db"
-	"github.com/ziskter3262/go-grpc-order-svc/pkg/pb"
 	"google.golang.org/grpc"
 )
 
