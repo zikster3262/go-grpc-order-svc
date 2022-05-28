@@ -34,7 +34,7 @@ func main() {
 		log.Fatalln("Failed to listing:", err)
 	}
 
-	fmt.Println("Order Svc on", c.Port)
+	fmt.Printf("Server Order service is running on port%v.", c.Port)
 
 	s := service.Server{
 		H:          h,
